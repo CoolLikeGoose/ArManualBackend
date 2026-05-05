@@ -1,0 +1,21 @@
+### Load manual
+GET http://localhost:8000/manuals/1
+
+### Load scenario interactions
+GET http://localhost:8000/scenarios/1/interactions
+
+### Load interaction points batch
+POST http://localhost:8000/interactionpoints/batch
+Content-Type: application/json
+
+{
+  "ids": [100, 101]
+}
+
+### Load track points batch
+POST http://localhost:8000/trackpoints/batch
+Content-Type: application/json
+
+{
+  "ids": [0, 1]
+}
