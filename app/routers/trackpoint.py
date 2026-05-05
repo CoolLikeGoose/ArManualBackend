@@ -1,4 +1,3 @@
-# FILE: app/routers/trackpoints.py
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
